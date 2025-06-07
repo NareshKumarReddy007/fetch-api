@@ -33,6 +33,4 @@ function displayUsers(users) {
 }
 
 reloadBtn.addEventListener('click', fetchUsers);
-
-// Initial fetch on page load
 fetchUsers();
